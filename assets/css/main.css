@@ -3872,12 +3872,16 @@ input, select, textarea {
 
 /* Intro */
 
-	#intro {
-		background-attachment: fixed;
-		background-image: url("/Rockteam-coaching/images/hero.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
+	
+		#intro {
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("/Rockteam-coaching/images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+		
 	}
 	#intro::before {
     content: "";
